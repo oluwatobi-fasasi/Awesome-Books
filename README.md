@@ -42,7 +42,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **[CSS]**
-- **[JavaScript]
+- **[JavaScript]**
 - **[Linters]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -66,7 +66,6 @@ cd my-folder
 git clone https://github.com/oluwatobi-fasasi/Awesome-Books/.git
 ```
 
---->
 
 ### Usage:
 
@@ -105,7 +104,7 @@ Deployment date: 2nd June, 2023.
 
 - GitHub: [@githubhandle](https://github.com/oluwatobi-fasasi)
 - Twitter: [@twitterhandle](https://twitter.com/FasasiTobi1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fasasi-abdulwasih-oluwatobi-129a8b109/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdulwasih-oluwatobi-fasasi-129a8b109)
 
 ## 👥 Collaborator <a name="collaborator"></a>
 
@@ -115,7 +114,6 @@ Deployment date: 2nd June, 2023.
 - Twitter: [@twitterhandle](https://https://twitter.com/NohainZ)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nohain-islam-0261b4148/)
 
-Both authors have contributed to the development of this project.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -151,6 +149,6 @@ I would like to express my sincere gratitude to Microverse for providing me with
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
