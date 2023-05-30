@@ -3,39 +3,29 @@ const submit = document.getElementById('submit');
 const titleInput = document.getElementById('title-input');
 const authorInput = document.getElementById('author-input');
 
-
-
 let DATA = JSON.parse(localStorage.getItem('data')) || [];
 
-function add(author, title){
-    DATA.push({author, title});
-    localStorage.setItem('data', JSON.stringify(DATA));
-  }
-
-  
-  submit.addEventListener('click',(e)=>{
-    add(authorInput.value, titleInput.value);
-    show();
-});
-
-function remove(author, title) {
-    DATA = DATA.filter((b) =>  b.author !== author || b.title !== title);
-    localStorage.setItem('data', JSON.stringify(DATA));
+function add(author, title) {
+  DATA.push({ author, title });
+  localStorage.setItem('data', JSON.stringify(DATA));
 }
 
-function show(){
-    section.innerHTML = '';
-for(let i=0; i <= DATA.length; i++){
+function remove(author, title) {
+  DATA = DATA.filter((b) => b.author !== author || b.title !== title);
+  localStorage.setItem('data', JSON.stringify(DATA));
+}
+
+function show() {
+  section.innerHTML = '';
+  DATA.forEach((DATA) => {
     const div = document.createElement('div');
     const authorName = document.createElement('p');
-    authorName.textContent = `${DATA[i].author}`;
+    authorName.textContent = `${DATA.author}`;
     const titleName = document.createElement('p');
-    titleName.textContent = `${DATA[i].title}`;
+    titleName.textContent = `${DATA.title}`;
     const removeBtn = document.createElement('button');
     removeBtn.textContent = 'Remove';
-    const hr = document.createElement('hr')
-
-    
+    const hr = document.createElement('hr');
 
     div.appendChild(authorName);
     div.appendChild(titleName);
@@ -45,13 +35,16 @@ for(let i=0; i <= DATA.length; i++){
     // div.innerHTML = bodyContent;
     section.appendChild(div);
 
-    removeBtn.addEventListener('click', ()=>{
-        remove(DATA[i].author, DATA[i].title);
-        show();
+    removeBtn.addEventListener('click', () => {
+      remove(DATA.author, DATA.title);
+      show();
     });
+  });
 }
 
-}
+submit.addEventListener('click', () => {
+  add(authorInput.value, titleInput.value);
+  show();
+});
 
 show();
-
