@@ -66,7 +66,6 @@ cd my-folder
 git clone https://github.com/oluwatobi-fasasi/Awesome-Books/.git
 ```
 
-
 ### Usage:
 
 To explore the tools I have used to create my portfolio, follow these steps:
@@ -76,7 +75,6 @@ To explore the tools I have used to create my portfolio, follow these steps:
 3. Review the code, HTML, CSS, and other resources to see how the portfolio is built.
 
 Feel free to explore and customize the project according to your needs.
-
 
 ### Run tests:
 
@@ -90,7 +88,6 @@ To execute the tests for this project, follow these steps:
 6. Verify that the tests are running successfully and check the console for any error messages or test results.
 
 By following these steps, you can effectively run and validate the tests for the project using Live Server in VSCode.
-
 
 ### Deployment:
 
@@ -114,6 +111,11 @@ Deployment date: 2nd June, 2023.
 - Twitter: [@twitterhandle](https://https://twitter.com/NohainZ)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nohain-islam-0261b4148/)
 
+**Samuel Wanza**
+
+- GitHub: [@githubhandle](https://github.com/Samuelwanza/)
+- Twitter: [@twitterhandle](https://twitter.com/samuelmunguti9/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/samuel-munguti-8a257a1bb/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
