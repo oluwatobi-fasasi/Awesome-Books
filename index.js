@@ -42,7 +42,6 @@ for(let i=0; i <= DATA.length; i++){
     div.appendChild(removeBtn);
     div.appendChild(hr);
 
-    // div.innerHTML = bodyContent;
     section.appendChild(div);
 
     removeBtn.addEventListener('click', ()=>{
