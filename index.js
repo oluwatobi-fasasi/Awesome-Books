@@ -32,7 +32,6 @@ function show() {
     div.appendChild(removeBtn);
     div.appendChild(hr);
 
-    // div.innerHTML = bodyContent;
     section.appendChild(div);
 
     removeBtn.addEventListener('click', () => {
