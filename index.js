@@ -1,7 +1,7 @@
 class Book{
     constructor(){
         this.section = document.getElementById('book-section');
-        this.submit = document.getElementById('submit');
+        this.form = document.querySelector('form');
         this.titleInput = document.getElementById('title-input');
         this.authorInput = document.getElementById('author-input');
         this.DATA = JSON.parse(localStorage.getItem('data')) || [];
@@ -44,9 +44,12 @@ class Book{
     }
 
     init(){
-        this.submit.addEventListener('click', ()=>{
+        this.form.addEventListener('submit', (e)=>{
+            e.preventDefault();
             this.add(this.authorInput.value, this.titleInput.value);
+            this.form.reset();
             this.show();
+            
         })
     }
 }
