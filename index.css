@@ -1,13 +1,57 @@
-body {
-  box-sizing: border-box;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  width: 100%;
+* {
   font-family: 'Niramit', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
   background: linear-gradient(to bottom, orange, yellow);
   height: 100vh;
   color: #2c2c2c;
+}
+
+.nav-container {
+  border: 2px solid;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5%;
+  padding: 0.5%;
+  font-size: 1.75vw;
+}
+
+.nav-left {
+  margin: 0 0 0 0.5%;
+}
+
+.nav-container ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10%;
+  width: 30%;
+}
+
+.li-border-right {
+  border-right: 1px solid black;
+  height: 90%;
+}
+
+.li-border-left {
+  border-left: 1px solid black;
+  height: 90%;
+}
+
+.nav-container a {
+  text-decoration: none;
+}
+
+main {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 h1 {
@@ -51,14 +95,15 @@ h2 {
 .book-item {
   display: flex;
   justify-content: space-between;
-  width: 30vw;
   align-items: center;
   background: white;
   padding: 5px;
+  gap: 10px;
 }
 
 .book-item > p {
   font-weight: bold;
+  font-size: 2vw;
 }
 
 .book-item > button {

@@ -14,18 +14,30 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <nav>This is the nav bar</nav>
-    <h1>Awesome Books</h1>
-    <div class="books-wrapper">
-      <section class="book-section" id="book-section"></section>
-    </div>
+    <nav class="nav-container">
+            <p class="nav-left">Awesome Books</p>
+            <ul>
+                <li><a href="">List</a></li>
+                <li class="li-border-right"></li>
+                <li><a href="">Add new</a></li>
+                <li class="li-border-left"></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+    </nav>
+    <main>
+      <h1>All Awesome Books</h1>
+      <div class="books-wrapper">
+        <section class="book-section" id="book-section"></section>
+      </div>
 
-    <form action="">
-      <h2>Add a new book</h2>
-      <input type="text" id="author-input" placeholder="Author" required />
-      <input type="text" id="title-input" placeholder="Title" required />
-      <button id="submit">Add</button>
-    </form>
+      <form action="">
+        <h2>Add a new book</h2>
+        <input type="text" id="author-input" placeholder="Author" required />
+        <input type="text" id="title-input" placeholder="Title" required />
+        <button id="submit">Add</button>
+      </form>
+    </main>
+
     <script src="./index.js"></script>
   </body>
 </html>
