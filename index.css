@@ -52,6 +52,8 @@ main {
   flex-direction: column;
   display: flex;
   align-items: center;
+  height: 84vh;
+  padding: 15%;
 }
 
 h1 {
@@ -121,4 +123,13 @@ h2 {
 
 .books-wrapper {
   border: 2px solid gray;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5% 1%;
+  padding: 0.5%;
+  border: 2px solid;
 }
