@@ -6,6 +6,16 @@ class Book {
     this.authorInput = document.getElementById('author-input');
     this.DATA = JSON.parse(localStorage.getItem('data')) || [];
     this.counter = 0;
+
+    this.list = document.querySelector('#list');
+    this.booksWrapper = document.querySelector('#books-wrapper');
+
+    this.addNew = document.querySelector('#addNew');
+    this.form = document.querySelector('#form');
+
+    this.contact = document.querySelector('#contact');
+    this.contactPage = document.querySelector('#contact-page');
+    
     if (this.DATA.length > 0) {
       this.show();
     }
@@ -57,7 +67,38 @@ class Book {
       this.show();
     });
   }
+
+  showListPage() {
+    this.list.addEventListener('click', () => {
+      this.booksWrapper.style.display = 'block';
+      this.form.style.display = 'none';
+      this.contactPage.style.display = 'none';
+    });
+  }
+
+  showFormPage() {
+    this.addNew.addEventListener('click', () => {
+      this.form.style.display = 'flex';
+      this.booksWrapper.style.display = 'none';
+      this.contactPage.style.display = 'none';
+    });
+  }
+  
+
+  showContactPage() {
+    this.contact.addEventListener('click', () => {
+      this.contactPage.style.display = 'flex';
+      this.form.style.display = 'none';
+      this.booksWrapper.style.display = 'none';
+    });
+  }
+  
+
 }
 
 const book = new Book();
 book.init();
+book.showListPage();
+book.showFormPage();
+book.showContactPage();
+
