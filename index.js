@@ -15,7 +15,7 @@ class Book {
 
     this.contact = document.querySelector('#contact');
     this.contactPage = document.querySelector('#contact-page');
-    
+
     if (this.DATA.length > 0) {
       this.show();
     }
@@ -83,7 +83,6 @@ class Book {
       this.contactPage.style.display = 'none';
     });
   }
-  
 
   showContactPage() {
     this.contact.addEventListener('click', () => {
@@ -92,8 +91,6 @@ class Book {
       this.booksWrapper.style.display = 'none';
     });
   }
-  
-
 }
 
 const book = new Book();
@@ -101,4 +98,3 @@ book.init();
 book.showListPage();
 book.showFormPage();
 book.showContactPage();
-

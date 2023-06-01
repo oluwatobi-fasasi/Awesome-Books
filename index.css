@@ -16,9 +16,13 @@ body {
   border-radius: 3px;
   display: flex;
   justify-content: space-between;
-  margin: 0.5%;
   padding: 0.5%;
   font-size: 1.75vw;
+  background: #2c2c2c;
+}
+
+.contact-page li {
+  margin-left: 20px;
 }
 
 .nav-container ul {
@@ -35,20 +39,26 @@ body {
 
 .nav-left {
   margin: 0 0 0 0.5%;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .li-border-right {
-  border-right: 1px solid black;
+  border-right: 1px solid white;
   height: 90%;
 }
 
 .li-border-left {
-  border-left: 1px solid black;
+  border-left: 1px solid white;
   height: 90%;
 }
 
 .nav-container a {
   text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 main {
@@ -140,15 +150,20 @@ h2 {
   margin-bottom: 7%;
 }
 
-.contact-page li {
-  margin-left: 20px;
-}
-
 footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0.5% 1%;
   padding: 0.5%;
-  border: 2px solid;
+  background: black;
+  color: white;
+  font-size: 20px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.nav-container > a :hover {
+  background: white;
 }
