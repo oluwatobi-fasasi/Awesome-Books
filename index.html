@@ -13,18 +13,49 @@
     />
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
-    <h1>Awesome Books</h1>
-    <div class="books-wrapper">
-      <section class="book-section" id="book-section"></section>
-    </div>
 
-    <form action="">
-      <h2>Add a new book</h2>
-      <input type="text" id="author-input" placeholder="Author" required />
-      <input type="text" id="title-input" placeholder="Title" required />
-      <button id="submit">Add</button>
-    </form>
+  <body>
+    <nav class="nav-container">
+      <p class="nav-left">Awesome Books</p>
+      <ul>
+        <li><a href="#" id="list">List</a></li>
+        <li class="li-border-right"></li>
+        <li><a href="#" id="addNew">Add new</a></li>
+        <li class="li-border-left"></li>
+        <li><a href="#" id="contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="books-wrapper" class="books-wrapper">
+        <h1>Awesome Books</h1>
+        <section class="book-section" id="book-section">
+        </section>
+      </div>
+      
+      <form id="form" class="form" action="">
+        <h2>Add a new book</h2>
+        <input type="text" id="author-input" placeholder="Author" required />
+        <input type="text" id="title-input" placeholder="Title" required />
+        <button id="submit">Add</button>
+      </form>
+
+      <section class="contact-page" id="contact-page">
+        <h1 class="contact-header">Contact Information</h1>
+        <ul>
+          Do have any questions or you just want to say "Hello"?<br>You can reach out to us!<br><br>
+          <li>Our e-mail mail@mail.com</li>
+                <li>Our phone number: 0043586534422</li>
+                <li>Our address Streetname 22, 84503 City, Country</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        copyright.
+      </p>
+    </footer>
+
     <script src="./index.js"></script>
   </body>
 </html>

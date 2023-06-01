@@ -1,4 +1,3 @@
-
 # Awesome-Books
 
 <a name="readme-top"></a>
@@ -67,7 +66,6 @@ cd my-folder
 git clone https://github.com/oluwatobi-fasasi/Awesome-Books/.git
 ```
 
-
 ### Usage:
 
 To explore the tools I have used to create my portfolio, follow these steps:
@@ -77,7 +75,6 @@ To explore the tools I have used to create my portfolio, follow these steps:
 3. Review the code, HTML, CSS, and other resources to see how the portfolio is built.
 
 Feel free to explore and customize the project according to your needs.
-
 
 ### Run tests:
 
@@ -92,10 +89,10 @@ To execute the tests for this project, follow these steps:
 
 By following these steps, you can effectively run and validate the tests for the project using Live Server in VSCode.
 
-
 ### Deployment:
 
 Deployment date: 2nd June, 2023.
+[Deployed Link](https://awesome-books-version1.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +111,6 @@ Deployment date: 2nd June, 2023.
 - GitHub: [@githubhandle](https://github.com/Zafron047)
 - Twitter: [@twitterhandle](https://https://twitter.com/NohainZ)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nohain-islam-0261b4148/)
-
 
 ## 🔭 Future Features <a name="future-features"></a>
 
