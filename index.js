@@ -22,7 +22,7 @@ class Book {
   }
 
   add(author, title) {
-    this.DATA.push({ author, title });
+    this.DATA = this.DATA.concat({ author, title });
     localStorage.setItem('data', JSON.stringify(this.DATA));
   }
 
